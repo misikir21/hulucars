@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
-const Custombtn = () => {
+import { CustombtnProps } from "@/types";
+const Custombtn = ({ title, containerStyles, handleclick }: CustombtnProps) => {
   return (
     <div>
       <button

@@ -1,6 +1,6 @@
 "use client";
 import { Custombtn } from ".";
-
+import Image from "next/image";
 function Hero() {
   const handlescroll = () => {};
   return (
@@ -18,6 +18,11 @@ function Hero() {
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleclick={handlescroll}
         />
+      </div>
+      <div className="hero__image-container">
+        <div className="hero__images">
+          <Image src="/hero.png" alt="hero" fill className="object-contain" />
+        </div>
       </div>
     </div>
   );

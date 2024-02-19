@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Custombtn } from ".";
 
 function Hero() {
@@ -15,9 +14,9 @@ function Hero() {
           process
         </p>
         <Custombtn
-          title="explore cars"
+          title="Explore cars"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
-          handleclik={handlescroll}
+          handleclick={handlescroll}
         />
       </div>
     </div>

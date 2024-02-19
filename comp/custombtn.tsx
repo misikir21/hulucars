@@ -7,10 +7,10 @@ const Custombtn = ({ title, containerStyles, handleclick }: CustombtnProps) => {
       <button
         disabled={false}
         type={"button"}
-        className={`custom-btn`}
-        onClick={() => {}}
+        className={`custom-btn ${containerStyles}`}
+        onClick={handleclick}
       >
-        <span className={`flex-1`}>titte</span>
+        <span className={`flex-1`}>{title}</span>
       </button>
     </div>
   );

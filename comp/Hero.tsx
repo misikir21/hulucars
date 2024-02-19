@@ -15,7 +15,7 @@ function Hero() {
           process
         </p>
         <Custombtn
-          titte="explore cars"
+          title="explore cars"
           containerStyles="bg-primary-blue text-white rounded-full mt-10"
           handleclik={handlescroll}
         />

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "@/comp";
+import { Footer } from "@/comp";
 
 export const metadata: Metadata = {
   title: "hulu cars",

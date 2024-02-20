@@ -5,13 +5,7 @@ import Image from "next/image";
 import { Custombtn } from "@/comp";
 
 const Hero = () => {
-  const handleScroll = () => {
-    const nextSection = document.getElementById("discover");
-
-    if (nextSection) {
-      nextSection.scrollIntoView({ behavior: "smooth" });
-    }
-  };
+  const handleScroll = () => {};
 
   return (
     <div className="hero">

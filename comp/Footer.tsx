@@ -12,6 +12,11 @@ function Footer() {
             height={18}
             className="object-contain"
           />
+          <p className="text-base text-gray-700">
+            Hulucars 2023
+            <br />
+            All rights reseverd &copy;
+          </p>
         </div>
       </div>
     </footer>

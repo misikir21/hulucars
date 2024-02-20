@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import { footerLinks } from "@/constant";
+import { link } from "fs/promises";
 function Footer() {
   return (
     <footer className="flex flex-col text-black-100 mt-5 border-t border-gray-100">
@@ -17,6 +19,13 @@ function Footer() {
             <br />
             All rights reseverd &copy;
           </p>
+        </div>
+        <div className="footer-links">
+          {footerLinks.map((link) => (
+            <div key={link.title} className="footer__link">
+              <h3 className="font-bold">{link.title}</h3>
+            </div>
+          ))}
         </div>
       </div>
     </footer>

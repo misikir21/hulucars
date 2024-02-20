@@ -1,4 +1,4 @@
-import { Hero, Custombtn } from "@/comp";
+import { Hero, Custombtn, SearchBar, CustomFilter } from "@/comp";
 import Image from "next/image";
 
 export default function Home() {

@@ -8,3 +8,7 @@ export interface CustomButtonProps {
   rightIcon?: string;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
 }
+export interface setmanufacturerprops {
+  manufacturer: string;
+  setmanufacturer: (manufacturer: string) => void;
+}

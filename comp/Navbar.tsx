@@ -17,7 +17,7 @@ function Navbar() {
         <Custombtn
           title="sign in"
           btntype="button"
-          containerStyles="text-primary-blue rounded-full bg-yellow min-w-[130px]"
+          Styles="text-primary-blue rounded-full bg-yellow min-w-[130px]"
         />
       </nav>
     </header>

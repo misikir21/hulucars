@@ -15,7 +15,7 @@ function Hero() {
         </p>
         <Custombtn
           title="Explore cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10"
+          Styles="bg-primary-blue text-white rounded-full mt-10"
           handleclick={handlescroll}
         />
       </div>

@@ -21,7 +21,7 @@ function Footer() {
             All rights reseverd &copy;
           </p>
         </div>
-        <div className="footer-links">
+        <div className="footer__links">
           {footerLinks.map((link) => (
             <div key={link.title} className="footer__link">
               <h3 className="font-bold">{link.title}</h3>

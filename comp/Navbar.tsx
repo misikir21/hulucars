@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { Custombtn } from ".";
 function Navbar() {
   return (
     <header className="w-full absolute z-10">
@@ -14,6 +15,11 @@ function Navbar() {
             className="object-contain"
           />
         </Link>
+        <Custombtn
+          title="sign in"
+          btntype="button"
+          containerStyles="text-primary-blue rounded-full bg-white min-w-[130px]"
+        />
       </nav>
     </header>
   );

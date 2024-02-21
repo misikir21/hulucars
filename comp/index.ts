@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import Custombtn from "./Custombtn";
+import CustomButton from "./CustomButton";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 import SearchBar from "./SearchBar";
@@ -12,5 +12,5 @@ export {
   CustomFilter,
   Footer,
   Navbar,
-  Custombtn,
+  CustomButton,
 };

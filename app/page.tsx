@@ -4,6 +4,8 @@ import Image from "next/image";
 
 export default async function Home() {
   const allcars = await fetchcars();
+  const isdataempty = !Array.isArray(allcars) || allcars.length < 1 || !allcars;
+  console.log(allcars);
   return (
     <main className="overflow-hidden">
       <Hero />

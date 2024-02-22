@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Custombtn } from ".";
+import { CustomButton } from "@/comp";
 function Navbar() {
   return (
     <header className="w-full absolute z-10">
@@ -14,10 +14,10 @@ function Navbar() {
             className="object-contain"
           />
         </Link>
-        <Custombtn
+        <CustomButton
           title="sign in"
-          btntype="button"
-          Styles="text-primary-blue rounded-full bg-yellow min-w-[130px]"
+          btnType="button"
+          containerStyles="text-primary-blue rounded-full bg-yellow min-w-[130px]"
         />
       </nav>
     </header>

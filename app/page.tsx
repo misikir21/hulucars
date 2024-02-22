@@ -1,4 +1,4 @@
-import { Hero, CustomButton, SearchBar, CustomFilter } from "@/comp";
+import { Hero, CustomButton, CarCard, SearchBar, CustomFilter } from "@/comp";
 import { fetchcars } from "@/utils";
 import Image from "next/image";
 

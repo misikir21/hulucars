@@ -1,13 +1,15 @@
 "use client";
+import Image from "next/image";
 import { CarProps } from "@/types";
 import React from "react";
 import { CustomButton } from ".";
-import { fetchcars } from "@/utils";
+import { fetchcars, calculateCarRent } from "@/utils";
 interface carcardprops {
   car: CarProps;
 }
 const CarCard = ({ car }: CarProps) => {
   const { city_mpg, year, make, model, transmission, drive } = car;
+  const carRent = calculateCarRent(city_mpg, year);
   return (
     <div className="car-card group">
       <div className="car-card__content">
@@ -20,6 +22,15 @@ const CarCard = ({ car }: CarProps) => {
 
         <span className="self-end text-[14px] font-medium">/day</span>
       </p>
+      <div className="relative w-full h-40 my-3 object-contain">
+        <Image
+          src="/hero.png"
+          alt="car model"
+          fill
+          priority
+          className="object-contain"
+        />
+      </div>
     </div>
   );
 };

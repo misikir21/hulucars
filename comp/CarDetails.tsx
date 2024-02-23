@@ -8,7 +8,7 @@ interface CarDetailsprops {
   closemodal: () => void;
   car: CarProps;
 }
-function CarDetails() {
+function CarDetails({ isopen, closemodal, car }: CarDetailsprops) {
   return <div>CarDetails</div>;
 }
 

@@ -33,6 +33,21 @@ const CarCard = ({ car }: CarProps) => {
           className="object-contain"
         />
       </div>
+      <div className="relative flex w-full mt-2">
+        <div className="felx group-hover:invisible w-full justify-between text-gray ">
+          <div className="flex flex-col justify-center items-center gap-2">
+            <Image
+              src="/steering-wheel.svg"
+              alt="steering wheel"
+              height={20}
+              width={20}
+            />
+            <p className="text-[14]">
+              {transmission === "a" ? "Automatic" : "Manual"}
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

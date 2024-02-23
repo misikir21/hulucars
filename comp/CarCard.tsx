@@ -61,6 +61,12 @@ const CarCard = ({ car }: CarProps) => {
               <p className="text-[14]">{city_mpg}MPG</p>
             </div>
           </div>
+          <div className="car-card__btn-container">
+            <CustomButton
+              title="view more"
+              containerStyles="w-full py-[16px] rounded-full bg-primary-blue"
+            />
+          </div>
         </div>
       </div>
     </div>

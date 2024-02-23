@@ -45,10 +45,21 @@ const CarCard = ({ car }: CarProps) => {
             <p className="text-[14]">
               {transmission === "a" ? "Automatic" : "Manual"}
             </p>
+            <div className="flex flex-col justify-center items-center gap-2">
+              <Image src="/tire.svg" alt="tire" height={20} width={20} />
+              <p className="text-[14]">{drive.toUpperCase()}</p>
+            </div>
           </div>
+
           <div className="flex flex-col justify-center items-center gap-2">
-            <Image src="/tire.svg" alt="tire" height={20} width={20} />
-            <p className="text-[14]">{drive.toUpperCase()}</p>
+            <Image src="/gas.svg" alt="gas" height={20} width={20} />
+            <p className="text-[14]">
+              {transmission === "a" ? "Automatic" : "Manual"}
+            </p>
+            <div className="flex flex-col justify-center items-center gap-2">
+              <Image src="/tire.svg" alt="tire" height={20} width={20} />
+              <p className="text-[14]">{city_mpg}MPG</p>
+            </div>
           </div>
         </div>
       </div>
